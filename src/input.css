@@ -10,5 +10,29 @@
 
 @layer components{
 
+    .banner .banner__wrapper .content  .loginform{
+        background: rgb(46,127,211);
+        background: linear-gradient(180deg, rgba(46,127,211,1) 30%, rgba(46,127,211,1) 49%, rgba(237,242,247,1) 98%);
+        height:29rem;
+        border-radius:10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
     
+    .banner .loginform input{
+        height:3.7rem;
+        width:22rem;
+        border-radius:5px;
+        padding-left:2rem;
+    }
+
+    .banner  .loginform input::placeholder{
+        opacity:50%;
+       
+    }
+    input:focus {
+        border-color: transparent;
+        outline: none; /* Remove the default focus outline */
+        padding-left:2rem;
+    }
+     
 }
