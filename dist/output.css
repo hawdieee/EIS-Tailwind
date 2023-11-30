@@ -534,6 +534,15 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+input:focus {
+  border-color: transparent;
+  outline: none;
+  /* Remove the default focus outline */
+  padding-left:2rem;
+}
+
+/* Style for active tab */
+
 .container{
   width: 100%;
   margin: 0 auto;
